@@ -19,36 +19,46 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="./images/favicon.ico" />
   </head>
-  <body>
-    <header class="header">
-      <div class="header__container">
-        <h1 id="title" class="header__title">TH3 ALMIGHTY Q LANDING PAGE</h1>
-        <button
-          class="header__menu-button"
-          type="button"
-          id="menu-button"
-        >
-          ☰
-        </button>
-
-        <nav class="header__menu" id="menu">
-          <ul class="header__list">
-            <li class="header__item">
-              <a class="header__link" href="#home">Home</a>
+  <body class="page">
+    <div class="page__content">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__spacer">
+            <img
+              src="./images/logo.svg"
+              alt="th3almightyq logo"
+              class="header__logo"
+            />
+            <h1 id="title" class="header__title">
+              TH3 ALMIGHTY Q LANDING PAGE
+            </h1>
+          </div>
+          <button class="header__menu-button" type="button" id="menu-button">
+            ☰
+          </button>
+        </div>
+      </header>
+      <main></main>
+      <footer></footer>
+      <div class="modal">
+        <nav class="modal__menu modal__menu_open" id="menu">
+          <ul class="modal__list">
+            <li class="modal__item">
+              <a class="modal__link" href="#home">Home</a>
             </li>
-            <li class="header__item">
-              <a class="header__link" href="#new-release">New Release</a>
+            <li class="modal__item">
+              <a class="modal__link" href="#new-release">New Release</a>
             </li>
-            <li class="header__item">
-              <a class="header__link" href="#about">About</a>
+            <li class="modal__item">
+              <a class="modal__link" href="#about">About</a>
             </li>
-            <li class="header__item">
-              <a class="header__link" href="#contact">Contact</a>
+            <li class="modal__item">
+              <a class="modal__link" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
     <script type="module" src="./scripts/index.js"></script>
   </body>
 </html>

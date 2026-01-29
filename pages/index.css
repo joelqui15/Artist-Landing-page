@@ -1,2 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/header.css);
+@import url(../blocks/modal.css);
+
+.page {
+  background: linear-gradient(180deg, #0a1f44 10%, #000000 75%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
