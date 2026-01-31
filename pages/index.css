@@ -1,10 +1,24 @@
 @import url(../vendor/normalize.css);
+@import url(../blocks/nav.css);
 @import url(../blocks/header.css);
-@import url(../blocks/modal.css);
 
 .page {
-  background: linear-gradient(180deg, #0a1f44 10%, #000000 75%);
-  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../images/DSC02607.JPG");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  z-index: -1;
+  transform: scale(1.2);
+  filter: blur(40px);
+  opacity: 0.7;
 }
