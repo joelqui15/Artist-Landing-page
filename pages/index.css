@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/nav.css);
 @import url(../blocks/header.css);
+@import url(../blocks/home.css);
 
 .page {
   margin: 0;
@@ -13,7 +14,7 @@
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("../images/DSC02607.JPG");
+  background-image: url("../images/smoking.JPG");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
